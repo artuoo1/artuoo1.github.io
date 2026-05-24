@@ -1,7 +1,7 @@
 # (Calculus – Midterm 2 Mastery Guide: Sections 7.3, 7.4, 7.8, 8.1, 8.2, 9.1, 9.2, 9.3)
 
 This guide follows the **Learning Template Mastery** and **Prompt Application Mastery** protocols. We will prioritize the most high-stakes and difficult topics first: **Trigonometric Substitution**, **Separable Equations**, and **Partial Fractions**.
-
+![[Pasted image 20260524002005.png]]
 ---
 
 ### (Calculus – Section 7.3 Trigonometric Substitution)
