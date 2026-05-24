@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Borradores Para Maquinas y Pájaros
+# Borradores para Máquinas y Pájaros
 
 {HERE GOES AN INTRO}
 
