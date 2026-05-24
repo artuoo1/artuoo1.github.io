@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Borradores Para Maquinas y Pájaros",
+    pageTitle: "Borradores para Máquinas y Pájaros",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
