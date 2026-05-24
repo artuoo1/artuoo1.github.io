@@ -14,7 +14,7 @@ This guide follows the **Learning Template Mastery** and **Prompt Application Ma
     3. For $\sqrt{x^{2}-a^{2}}$, use $x=a\sec\theta$.
 
 **Analysis Tip**: After integrating in terms of $\theta$, you **must** return to $x$. The most reliable method is the **Reference Triangle Method**: draw a right triangle where the sides are defined by your original substitution (e.g., if $\sin\theta = x/a$, then opposite side is $x$ and hypotenuse is $a$).
-![[Pasted image 20260524001315.png]]
+
 
 #### Core Topic Example: Radical Integration
 
