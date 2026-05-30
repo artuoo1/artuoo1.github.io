@@ -2,6 +2,8 @@
 tags:
   - Freedom
   - philosophy
+draft: false
+title: Unsweetened Freedom
 ---
 
 Human freedom is undeniable. We may argue about constraints and conditions that inevitably influence and even limit our capacity of choice. These constraints could also be an active, consciously-made choice by the agent (decision maker) in order to achieve something. It could also be some external force outside of their control. Yet, freedom is still there, even if consequences seem likely to happen, the choice is still ours.
