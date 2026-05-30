@@ -11,6 +11,6 @@ There is no specific topic here. Some posts may be about math, programming, engi
 Over time, I might separate more developed pieces from logs, short entries, and rants. For now, this site is a public notebook.
 
 
-| Title               | Date     |     |
-| ------------------- | -------- | --- |
-| Unsweetened Freedom | 05/30/26 |     |
+| Title                                           | Date     |     |
+| ----------------------------------------------- | -------- | --- |
+| [Unsweetened Freedom](Unsweetened%20Freedom.md) | 05/30/26 |     |
