@@ -10,7 +10,7 @@ There is no specific topic here. Some posts may be about math, programming, engi
   
 Over time, I might separate more developed pieces from logs, short entries, and rants. For now, this site is a public notebook.
 
-**I invite you** to use the translation tool of the web browser you are using
+It is likely that some posts will be made in English while others in Spanish, because of this,**I invite you** to use the translation tool of the web browser you are using.
 
 
 | Title                                           | Date     | Brief                                                                                                                                                                |
