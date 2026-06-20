@@ -4,6 +4,7 @@ tags:
   - philosophy
 draft: false
 title: Unsweetened Freedom
+Brief: How human freedom persists under constrain, how people use structure to avoid the anxiety of choice, and why unstructured time exposes the burden of responsability.
 ---
 # Unsweetened Freedom
 

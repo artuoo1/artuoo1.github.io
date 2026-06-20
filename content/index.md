@@ -10,7 +10,9 @@ There is no specific topic here. Some posts may be about math, programming, engi
   
 Over time, I might separate more developed pieces from logs, short entries, and rants. For now, this site is a public notebook.
 
+**I invite you** to use the translation tool of the web browser you are using
 
-| Title                                           | Date     |     |
-| ----------------------------------------------- | -------- | --- |
-| [Unsweetened Freedom](Unsweetened%20Freedom.md) | 05/30/26 |     |
+
+| Title                                           | Date     | Brief                                                                                                                                                                |
+| ----------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Unsweetened Freedom](Unsweetened%20Freedom.md) | 05/30/26 | How human freedom persists under constrain, how people use structure to avoid the anxiety of choice, and why unstructured time exposes the burden of responsability. |
