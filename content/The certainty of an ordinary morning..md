@@ -1,6 +1,6 @@
 ---
 tags:
-draft: true
+draft: false
 title: The certainty of an ordinary morning.
 Brief: Although written in casual, free-flowing prose, this piece captures quite well the chain of events that unfold on an ordinary morning. It explores the mind-body connection and how intrusive thoughts, self-punishment, and certain ways of thinking can trigger a visceral, even animalistic, physical reaction.
 ---
