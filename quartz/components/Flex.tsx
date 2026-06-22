@@ -21,7 +21,7 @@ export default ((config: FlexConfig) => {
   const Flex: QuartzComponent = (props: QuartzComponentProps) => {
     const direction = config.direction ?? "row"
     const wrap = config.wrap ?? "nowrap"
-    const gap = config.gap ?? "1rem"
+    const gap = config.gap ?? "4rem"
 
     return (
       <div
