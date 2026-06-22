@@ -70,6 +70,7 @@
   @media all and ($mobile) {
     button.mobile-explorer {
       display: flex;
+     
     }
 
     button.desktop-explorer {
@@ -125,7 +126,7 @@ button.desktop-explorer {
     &.explorer-ul {
       overscroll-behavior: contain;
     }
-
+ //aa
     & li > a {
       color: var(--dark);
       opacity: 0.75;

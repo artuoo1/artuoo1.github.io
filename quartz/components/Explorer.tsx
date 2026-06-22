@@ -122,6 +122,8 @@ export default ((userOpts?: Partial<Options>) => {
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
           <OverflowList class="explorer-ul" />
         </div>
+        <p></p>
+        <p></p>
         <template id="template-file">
           <li>
             <a href="#"></a>
