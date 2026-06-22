@@ -55,8 +55,7 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Spacer()),
+    
     Component.Flex({
       components: [
         {

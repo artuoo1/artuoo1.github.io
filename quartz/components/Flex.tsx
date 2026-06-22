@@ -20,7 +20,7 @@ type FlexConfig = {
 export default ((config: FlexConfig) => {
   const Flex: QuartzComponent = (props: QuartzComponentProps) => {
     const direction = config.direction ?? "row"
-    const wrap = config.wrap ?? "nowrap"
+    const wrap = config.wrap ?? "wrap"
     const gap = config.gap ?? "1rem"
 
     return (
