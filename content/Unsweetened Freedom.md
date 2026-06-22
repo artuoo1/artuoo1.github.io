@@ -7,7 +7,6 @@ title: Unsweetened Freedom
 Brief: How human freedom persists under constrain, how people use structure to avoid the anxiety of choice, and why unstructured time exposes the burden of responsability.
 date: 05/30/26
 ---
-# Unsweetened Freedom
 
 Human freedom is undeniable. We may argue about constraints and conditions that inevitably influence and even limit our capacity of choice. These constraints could also be an active, consciously-made choice by the agent (decision maker) in order to achieve something. It could also be some external force outside of their control. Yet, freedom is still there, even if consequences seem likely to happen, the choice is still ours.
 
