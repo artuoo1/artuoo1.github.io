@@ -32,6 +32,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
+      //getDate is the method that extracts a "date" argument from the frontmatter
+      // of the processed markdown file!!
 
       // Display reading time if enabled
       if (options.showReadingTime) {

@@ -1,6 +1,7 @@
 ---
 title: Welcome!
 tags:
+date: 05/24/26
 ---
 # Borradores para Máquinas y Pájaros
 

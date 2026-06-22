@@ -3,10 +3,13 @@ import { ValidLocale } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
 
 interface Props {
-  date: Date
+  date: Date //reads for "date" in the markdown file.
   locale?: ValidLocale
 }
-
+//first imports QuartzPluginData from vfile, that file itself uses different scrips to 
+//process the data from the markdown file the specific method "Date" takes the argument
+// of a string, number or undefined and transfoms it into a format that TS can manage 
+// and use more easily, then it exports the output!
 export type ValidDateType = keyof Required<QuartzPluginData>["dates"]
 
 export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date | undefined {
