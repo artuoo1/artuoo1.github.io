@@ -81,4 +81,4 @@ self.add(AxesLabels, axes, sphere)
 [^1]: The two-dimensional parametric circle can be described with the following set of parametric equations:
 	x = cos(u)
 	y = sin(u)
-[^2]: I will talk about Manim later. If you want to see what is Manim capable of creating, go check out the 3Blue1Brown YT channel!! (P.S: He actually created Manim!)
+[^2]: I will talk about Manim later. If you want to see what is Manim capable of creating, go check out the [3Blue1Brown](https://youtu.be/ldxFjLJ3rVY?si=4E25CSm4NZYcoltG) YT channel!! (P.S: He actually created Manim!)
