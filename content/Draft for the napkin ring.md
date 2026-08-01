@@ -1,5 +1,12 @@
 ---
-
+tags:
+  - math
+  - coding
+  - manim
+draft: true
+title: The napkin ring theorem
+Brief: yes
+date: 07/01/2026
 ---
 You have surely seen a napkin ring before. It might've been at a party, wedding, or fancy restaurant. 
 ![374](Pasted%20image%2020260731175118.png)
