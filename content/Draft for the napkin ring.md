@@ -29,7 +29,8 @@ Let's take a look at the napkin ring.
 ![](Pasted%20image%2020260731175151.png)
 Before continuing, let us clearly define our current variables:
 
-$$r_{s}= \text{Radius of the sphere}, \qquad r_{c} = \text{Radius of the cylinder}  $$
+$$r_{s}= \text{Radius of the sphere}, \qquad r_{c} = \text{Radius of the cylinder},  $$
+
 $$h_{b}=\text{Height of napkin ring}$$
 ## How do we find the volume of the napkin ring?
 
@@ -44,10 +45,13 @@ The washer method works conceptually by subtracting the area of a smaller circle
 
  The washer method is a perfect match for this scenario because it uses an inner radius $r_i$ and an outer radius $r_o$. 
  ![](Pasted%20image%2020260731192840.png)
+
 To calculate the volume of a washer, we subtract the area of the inner circle from the area of the outer circle:
 
 $$ A_{w}= \pi r_{o}^2 - \pi r_{i}^2 = \boxed{ \pi(r_{o}^2 - r_{i}^2)}$$
+
 Then we just need to multiply by its thickness:
+
 $$$$
 
 $$
