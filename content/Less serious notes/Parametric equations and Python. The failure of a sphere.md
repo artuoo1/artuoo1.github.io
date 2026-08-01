@@ -16,7 +16,7 @@ See image below of a diagram describing more or less the intended motion.
 As I said before, it didn't quite work.
 
 I realized that simply using the 2 dimensional version of a parametric circle[^1] would now work because as our distance from the $xy-plane$ increases, the radius of each circle decreases. I might be understanding or reasoning this in the wrong way but in my head it did make sense. The problem is that if we input $\pi$ values $[0,2\pi]$ it may appear that if we start from the top and we supposed both parameters $u$ and $v$ 'advance' at the same rate, it would work. 
-Since I barely started learning to use **Manim**[^2] today and I had not done much on python in the last 10 months, I was pretty rusty and it was tedious to find my way around. Eight very fun and very 'well' spent hours on creating this thing...
+Since I barely started learning to use **Manim**[^2] today and I had not done much on python in the last year, I was pretty rusty and it was tedious to find my way around. Eight fun and *well* spent hours on creating this thing...
 
 I just love solving problems that don't exist...
 
@@ -33,45 +33,46 @@ import numpy as np
 class NapkingRing(ThreeDScene):
 
 def construct(self):
-Camera1 = self.set_camera_orientation(
-phi= 90 * DEGREES,
-theta= -45*DEGREES
-)
-axes= ThreeDAxes()
-AxesLabels = axes.get_axis_labels(
-x_label = "x",
-y_label = "y",
-z_label = "z"
-)
-radius=1
-height=2
-res = 5
-cylinder = Surface(
-lambda u, v: np.array([
-radius * np.cos(u),
-radius * np.sin(u),
-v,
-]),
-u_range= [0,TAU],
-v_range = [-height/2 , height/2],
-resolution=[res,res]
-)
-sphere = Surface(
-lambda u, v: np.array([
-radius * np.cos(u),
-radius * np.sin(u)*np.cos(u),
-radius * np.cos(v),
-]),
-u_range= [0,TAU],
-v_range = [0, TAU],
-resolution=[res,res]
-)
-cylinder.set_color(RED)
-self.begin_ambient_camera_rotation()
-self.add(AxesLabels, axes, sphere)
-#self.play(Create(cylinder).set_run_time(4))
-#not currently using "cylinder"
-#self.wait(5)
+	Camera1 = self.set_camera_orientation(
+	phi= 90 * DEGREES,
+	theta= -45*DEGREES
+	)
+	axes= ThreeDAxes()
+	AxesLabels = axes.get_axis_labels(
+		x_label = "x",
+		y_label = "y",
+		z_label = "z"
+	)
+	radius=1
+	height=2
+	res = 5
+	cylinder = Surface(
+		lambda u, v: np.array([
+			radius * np.cos(u),
+			radius * np.sin(u),
+			v,
+			]),
+			u_range= [0,TAU],
+			v_range = [-height/2 , height/2],
+			resolution=[res,res]
+		)
+	sphere = Surface(
+		lambda u, v: np.array([
+			radius * np.cos(u),
+			radius * np.sin(u)*np.cos(u),
+			radius * np.cos(v),
+		]),
+		u_range= [0,TAU],
+		v_range = [0, TAU],
+		resolution=[res,res]
+	)
+	
+	cylinder.set_color(RED)
+	self.begin_ambient_camera_rotation()
+	self.add(AxesLabels, axes, sphere)
+	#self.play(Create(cylinder).set_run_time(4))
+	#not currently using "cylinder"
+	#self.wait(5)
 ```
 
 
