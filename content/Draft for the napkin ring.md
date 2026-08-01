@@ -36,9 +36,9 @@ Let's take a look at the napkin ring.
 ![](Pasted%20image%2020260731175151.png)
 Before continuing, let us clearly define our current variables:
 
-$$r_{s}= \text{Radius of the sphere}, \qquad r_{c} = \text{Radius of the cylinder},  $$
+$$r_{s}= \text{Radius of the sphere}, \qquad r_{c} = \text{Radius of the cylinder}, \qquad h_{b}=\text{Height of napkin ring}  $$
 
-$$h_{b}=\text{Height of napkin ring}$$
+$$$$
 ## How do we find the volume of the napkin ring?
 
 You might be tempted to try subtracting the volume of the cylinder from that of the sphere to get the volume of the bead.  Although it sounds logical and it is a good try, you must remember that the cookie cutter is not really the volume that we remove from the sphere but rather just the tool used.
