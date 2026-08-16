@@ -40,27 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      sortFn: (a, b) => {
-        // Keep folders above files
-        if (a.isFolder && !b.isFolder) return -1
-        if (!a.isFolder && b.isFolder) return 1
-
-        // Sort folders alphabetically
-        if (a.isFolder && b.isFolder) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-
-        // Sort files newest -> oldest
-        const dateA = a.data?.date ? new Date(a.data.date).getTime() : 0
-        const dateB = b.data?.date ? new Date(b.data.date).getTime() : 0
-
-        return dateA - dateB
-      },
-    }),
+    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
@@ -85,27 +65,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      sortFn: (a, b) => {
-        // Keep folders above files
-        if (a.isFolder && !b.isFolder) return -1
-        if (!a.isFolder && b.isFolder) return 1
-
-        // Sort folders alphabetically
-        if (a.isFolder && b.isFolder) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-
-        // Sort files newest -> oldest
-        const dateA = a.data?.date ? new Date(a.data.date).getTime() : 0
-        const dateB = b.data?.date ? new Date(b.data.date).getTime() : 0
-
-        return dateA - dateB
-      },
-    }),
+    Component.Explorer(),
   ],
   right: [],
 }
