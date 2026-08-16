@@ -35,7 +35,9 @@ Let's take a look at the napkin ring.
 ![](Pasted%20image%2020260731175151.png)
 Before continuing, let us clearly define our current variables:
 
-$$r_{s}= \text{Radius of the sphere}, $$
+$$
+r_{s}= \text{Radius of the sphere}, 
+$$
 $$
 r_{c} = \text{Radius of the cylinder},
 $$
