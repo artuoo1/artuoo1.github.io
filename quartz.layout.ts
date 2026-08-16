@@ -58,7 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
         const dateA = a.data?.date ? new Date(a.data.date).getTime() : 0
         const dateB = b.data?.date ? new Date(b.data.date).getTime() : 0
 
-        return dateA - dateB
+        return dateB - dateA
       },
     }),
   ],
@@ -103,7 +103,7 @@ export const defaultListPageLayout: PageLayout = {
         const dateA = a.data?.date ? new Date(a.data.date).getTime() : 0
         const dateB = b.data?.date ? new Date(b.data.date).getTime() : 0
 
-        return dateA - dateB
+        return dateB - dateA
       },
     }),
   ],

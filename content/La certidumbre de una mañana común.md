@@ -5,6 +5,8 @@ draft: false
 title: La certidumbre de una mañana común
 Brief: Una pieza que aunque en prosa casual y libre, refleja bastante bien la cadena de eventos que se desarrollan en una mañana común. Muestra la relación mente-cuerpo y como los pensamientos intrusive, auto-castigo, y el pensamiento pueden generar una protesta física visceral y hasta animal.
 English version: "[[The certainty of an ordinary morning.]]"
+date: 06/20/26
+
 ---
 
 Comenzando por el aburrimiento,  
