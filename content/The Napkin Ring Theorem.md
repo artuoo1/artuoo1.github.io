@@ -35,7 +35,13 @@ Let's take a look at the napkin ring.
 ![](Pasted%20image%2020260731175151.png)
 Before continuing, let us clearly define our current variables:
 
-$$\qquad \qquad r_{s}= \text{Radius of the sphere}, \qquad r_{c} = \text{Radius of the cylinder},\qquad h_{b}=\text{Height of napkin ring}  . $$
+$$r_{s}= \text{Radius of the sphere}, $$
+$$
+r_{c} = \text{Radius of the cylinder},
+$$
+$$
+h_{b}=\text{Height of napkin ring}  
+$$
 
 ## How do we find the volume of the napkin ring?
 
@@ -92,7 +98,7 @@ We know the formula, but we do not yet know how to express $r_{o}$​ and $r_{i}
 
 
 Let us begin by drawing a cross-section of the napkin ring in the $xz$-plane:
-![](Slice_ManimCE_v0.20.1.png)
+![](Pasted%20image%2020260816164408.png)
 
 In our cross-section we can see the geometry of our ring. Our inner radius is defined as the distance from the $z$-axis ($x=0$) to the inner *cylinder*. Then, the outer radius will be the distance from the $z$-axis to the surface of the *sphere*.
 
