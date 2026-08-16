@@ -24,7 +24,7 @@ export default ((opts?: Options) => {
           </p>
           <p>
             You can also 
-            <a href = "mailto:arturo.borradores@gmail.com?subject=Blog%20Subscription?content=I%20want%20to$20recieve%20updates!">
+            <a href = "mailto:arturo.borradores@gmail.com?subject=Blog%20Subscription">
               {" subscribe "}
             </a>
             to new post notifications, or
